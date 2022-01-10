@@ -11,7 +11,9 @@ class LoginPage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(onPressed: () {
         // authController.signInAnonymous();
 
-        authController.signInGoogle();
+        //authController.signInGoogle();
+
+        authController.addToken();
 
         print("Anonimooo");
       }),
